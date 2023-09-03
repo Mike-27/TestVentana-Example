@@ -16,6 +16,7 @@ public class PaquetesInterface {
 	
 	
 	public void contruccion(){
+		ventana.setSize(400,500);
 		ventana.setLayout(gridLayout);
 		ventana.add(panel);
 		ventana.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
